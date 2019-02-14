@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 1000px;
+	height: auto;
+	border: solid red 1px;
+	margin: auto;
+}
+
+.container {
+	margin: 0px 50px;
+	padding: 10px 0px;
+}
+nav {
+	padding: 15px 0px;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	/* border: solid red 1px; */
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+}
+header {
+	/* height: 350px; */
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
+	/* border: solid red 1px; */
+	padding-bottom: 30px;
+	border-bottom: 1px black solid;
+
+}
+
+.primary-h1 {
+	font-size: 30px;
+}
+
+header h1, footer h1 {
+	font-size: 30px;
+	/* margin: 0px; */
+}
+
+header img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.content {
+	margin-top: 30px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.sub-content {
+	background: #f2f0ef;
+	padding: 20px;
+	margin-bottom: 30px;
+	height: auto;
+	width: 48%;
+	border: solid black 1px;
+}
+
+.sub-content h1 {
+	font-size: 20px;
+}
+
+.sub-content p {
+	margin-bottom: 20px;
+}
+
+.sub-content button {
+	background-color: white;
+	border: solid black 1px;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+footer {
+	padding-top: 30px;
+	border-top: 1px black solid;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#Copyright {
+	text-align: center;
+}
+
+#facts {
+	width: 48%;
+}
+
+#facts ul {
+	list-style-type: square;
+	padding: 20px;
+}
+
+.footer-content img{
+	width: 48%;
+}
